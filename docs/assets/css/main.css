@@ -1769,7 +1769,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: #8a624ae8;
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1808,7 +1808,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #ed786a;
+			background: #4a2c2a;
 		}
 
 		input[type="button"].alt,
@@ -1917,7 +1917,7 @@ input, select, textarea {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #4a2c2a;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
