@@ -10,29 +10,107 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
     <link rel="ICON" href="images/logo.ico" type="image/ico" />
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<section id="header">
-					<div class="container">
+			<div class="custom-banner-image ">
 
-						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">Coffee Connection</a></h1>
-							<p>The unoffical website for Coffee Connection</p>
+				<div class="banner-overlay"></div>
+				
+				<div class="banner-text">
+				
+				<div class="page-center">
+				
+				<div>
+					<section id="header">
+						<div class="container">
+	
+							<!-- Logo -->
+							<h0 id="logo">Welcome to...</h0>
+								<h1 id="logo"><a href="index.html">Coffee Connection!</a></h1>
+								<p>The unoffical website for Coffee Connection</p>
+	
+							<!-- Nav -->
+								<nav id="nav">
+									<ul>
+										<li><a class="icon solid fa-home" href="index.html"><span>Homepage</span></a></li>
+								
+									</ul>
+								</nav>
+	
+						</div>
+					</section>
+				</div>
+				
+				</div>
+				
+				</div>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li><a class="icon solid fa-home" href="index.html"><span>Homepage</span></a></li>
-							
-								</ul>
-							</nav>
+				<style>
 
-					</div>
-				</section>
+					.custom-banner-image {
+					
+					background-image: url('images/banner_0.jpg');
+					
+					}
+					
+					</style>
+					
+
+
+					<h2><p id="question">Which do you prefer?</p></h2>
+
+		<div class="flex-box-2">
+			<script type="text/javascript">
+
+				var clicks = 0;
+
+				function onClickDark() {
+					clicks += 1;
+					document.getElementById("clicks").innerHTML = clicks;
+
+				};
+				</script>
+
+			<button style="background-color: rgb(59, 44, 6);" type="button" onClick="onClickDark()">Dark Roast</button>
+			<p class="votes">Votes: <a class="votes" id="clicks">0</a></p>
+
+
+			<script type="text/javascript">
+
+				var clicks1 = 0;
+
+				function onClickMedium() {
+					clicks1 += 1;
+					document.getElementById("clicks1").innerHTML = clicks1;
+
+				};
+				</script>
+
+			<button style="background-color: rgb(112, 73, 18)" type="button" onClick="onClickMedium()">Medium Roast</button>
+			<p class="votes">Votes: <a class="votes" id="clicks1">0</a></p>
+
+
+			<script type="text/javascript">
+
+				var clicks2 = 0;
+
+				function onClickLight() {
+					clicks2 += 1;
+					document.getElementById("clicks2").innerHTML = clicks2;
+
+				};
+				</script>
+
+			<button style="background-color: rgb(209, 134, 55)" type="button" onClick="onClickLight()">Light Roast</button>
+			<p class="votes">Votes: <a class="votes" id="clicks2">0</a></p>
+		</div>
+
+
 
 			<!-- Features -->
 				<section id="features">
@@ -115,22 +193,24 @@
 									<!-- Post -->
 										<article class="box post">
 											<header>
-												<h2><a href="#">I don’t want to say <strong>it’s the aliens</strong> ...<br />
-												but it’s the aliens.</a></h2>
+												<h2><a href="#">I don’t want to say <strong>it’s the coffee</strong> ...<br />
+												but it’s the coffee.</a></h2>
 											</header>
 											<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>I mean isn't it possible?</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-											Curabitur leo nibh, rutrum eu malesuada in tristique.</p>
+											<h3>About the Buisness</h3>
+											<p>The COFFEE CONNECTION was established by the WESTSIDE VINEYARD in
+												the year 2000 on the location of the former Bruno's Ristorante, a landmark
+												Italian restaurant on the Los Angeles Westside. The formation of culture around coffee and
+												coffeehouses dates to 14th century.
+												Over the centuries, coffeehouses in Western Europe and the Eastern
+												Mediterranean were traditionally social hubs, as well as artistic and intellectual
+												centers. In keeping with these traditions, the COFFEE CONNECTION
+												provides a number of exquisite spaces ideal for socialization, study, collegial
+												gatherings and performing arts on stage both large and small. Our wifi is fast
+												and free, and we provide our own dedicated, secure and unlimited wifi for the
+												EXCLUSIVE use of Coffee Connection patrons.</p>
 											<ul class="actions">
-												<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
+												<li><a href="https://coffeeconnectionla.com/story-1-1" class="button icon solid fa-file">Continue Reading</a></li>
 											</ul>
 										</article>
 
@@ -141,29 +221,8 @@
 												for these awesome demo photos</a></h2>
 											</header>
 											<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>You should probably check out her work</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-											Curabitur leo nibh, rutrum malesuada.</p>
-											<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat
-											Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula
-											vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet
-											magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in,
-											tristique at erat. Curabitur leo nibh, rutrum eu malesuada in, tristique
-											at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna
-											tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat
-											magna tempus.</p>
-											<ul class="actions">
-												<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
-											</ul>
+											
+											
 										</article>
 
 								</div>
@@ -230,30 +289,15 @@
 																<h3><a href="#">Something of note</a></h3>
 															</header>
 															<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
-															<p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
+															<p>Our friendly team of baristas serves only the finest certified fair trade, organic,
+																shade grown, and carbon free coffee, espresso, tea & specialty drinks along with
+																a selection of locally prepared deli sandwiches, empanadas, salads & panini. But
+																as a not-for-profit community coffee house, we are able to provide our MENU
+																at prices you will find as surprisingly delightful as the menu itself... without
+																compromising our commitment to premium quality cafe fare and actively
+																contributing towards meeting the needs of the local and global community.</p>
 															<ul class="actions">
-																<li><a href="#" class="button icon solid fa-file">Learn More</a></li>
-															</ul>
-														</article>
-
-												</li>
-												<li>
-
-													<!-- Highlight -->
-														<article class="box highlight">
-															<header>
-																<h3><a href="#">Something of less note</a></h3>
-															</header>
-															<a href="#" class="image left"><img src="images/pic07.jpg" alt="" /></a>
-															<p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
-																<li><a href="#" class="button icon solid fa-file">Learn More</a></li>
+																<li><a href="https://coffeeconnectionla.com/story-1-1" class="button icon solid fa-file">Learn More</a></li>
 															</ul>
 														</article>
 
@@ -296,38 +340,36 @@
 							</div>
 							<div class="col-6 col-12-medium">
 								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
+									<p>Hours: <br>
+										Mon–Sat  7am-7pm  <br>
+										Closed Sunday</p>
 									<div class="row">
 										<div class="col-6 col-12-small">
 											<ul class="icons">
 												<li class="icon solid fa-home">
-													1234 Somewhere Road<br />
-													Nashville, TN 00000<br />
+													3838 South Centinela Ave<br />
+													California, CA 90066<br />
 													USA
 												</li>
 												<li class="icon solid fa-phone">
-													(000) 000-0000
+													+1 (310) 391-1380
 												</li>
 												<li class="icon solid fa-envelope">
-													<a href="#">info@untitled.tld</a>
+													<a href="#">coffeeconnectionla@gmail.com</a>
 												</li>
 											</ul>
 										</div>
 										<div class="col-6 col-12-small">
 											<ul class="icons">
-												<li class="icon brands fa-twitter">
-													<a href="#">@untitled</a>
+												<li class="icon brands fa-yelp">
+													<a href="https://www.yelp.com/biz/coffee-connection-los-angeles-2">Yelp</a>
 												</li>
 												<li class="icon brands fa-instagram">
-													<a href="#">instagram.com/untitled</a>
+													<a href="https://www.instagram.com/coffeeconnectionla">Instagram</a>
 												</li>
-												<li class="icon brands fa-dribbble">
-													<a href="#">dribbble.com/untitled</a>
-												</li>
+												
 												<li class="icon brands fa-facebook-f">
-													<a href="#">facebook.com/untitled</a>
+													<a href="https://www.facebook.com/WestLACafe/?fref=ts">Facebook</a>
 												</li>
 											</ul>
 										</div>
